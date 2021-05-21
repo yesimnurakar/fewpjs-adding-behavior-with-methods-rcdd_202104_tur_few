@@ -21,9 +21,9 @@ class Bird {
 }
 let cat = new cat("cedi",male);
 
-speak() {
+speak()  {
         return `${this.name} says meow`;
     }
-}
+
 
 cat.speak();
