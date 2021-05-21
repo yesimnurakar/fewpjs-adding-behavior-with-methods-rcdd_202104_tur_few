@@ -21,7 +21,7 @@ class Bird {
 }
 let cat = new speak();
 let twoFish = new Fish();
-speak() {
+speak(cat) {
         return `${this.name} says meow`;
     }
 }
