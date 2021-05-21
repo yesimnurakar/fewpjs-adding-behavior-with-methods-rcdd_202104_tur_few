@@ -19,7 +19,8 @@ class Bird {
     this.sex = sex;
   }
 }
-let cat = new Cat("cedi",male);
+let cat = new Cat("cedi","male");
+let dog = new Dog("Rufio", "male");
 
 speak() {
         return `${this.name} says meow`;
