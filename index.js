@@ -19,7 +19,7 @@ class Bird {
     this.sex = sex;
   }
 }
-let cat = new speak();
+let cat = new cat(cedi,male);
 
 speak() {
         return `${this.name} says meow`;
