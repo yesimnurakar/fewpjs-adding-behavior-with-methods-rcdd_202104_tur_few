@@ -5,7 +5,7 @@ class Cat {
     this.sex = sex;
   }
   speak() {
-          return `${this.name} says meow`;
+          return `${this.name} says meow!`;
       }
 }
 let cat = new Cat("cedi","male");
@@ -16,7 +16,13 @@ class Dog {
     this.name = name;
     this.sex = sex;
   }
+  speak() {
+          return `${this.name} says woof!`;
+      }
 }
+let dog = new Dog("Rufio", "male");
+dog.speak();
+
 
 class Bird {
   constructor(name, sex) {
@@ -25,9 +31,8 @@ class Bird {
   }
 }
 
-let dog = new Dog("Rufio", "male");
 
 
 
 
-cat.speak();
+
