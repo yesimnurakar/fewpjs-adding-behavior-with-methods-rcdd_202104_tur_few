@@ -30,9 +30,3 @@ class Bird {
     this.sex = sex;
   }
 }
-
-
-
-
-
-
